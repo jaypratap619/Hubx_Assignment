@@ -1,6 +1,6 @@
 import React from 'react';
 import { Wrapper } from './style';
-import { HourglassOutlined, QuestionOutlined } from '@ant-design/icons';
+import { HourglassOutlined } from '@ant-design/icons';
 function index() {
     return (
         <Wrapper>

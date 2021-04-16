@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
+  width: 30%;
   align-items: center;
   padding: 20px 30px;
   background: #fff;
-  max-width: 500px;
   margin-left: auto;
 
   .icon-box {
