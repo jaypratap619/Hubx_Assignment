@@ -1,7 +1,7 @@
 import React from 'react';
 import { Wrapper } from './style';
 import { UserAddOutlined } from '@ant-design/icons';
-import company from '../../assets/images/smiling-emoticon-square-face.svg';
+import company from '../../../assets/images/smiling-emoticon-square-face.svg';
 function index() {
     return (
         <Wrapper>
@@ -9,7 +9,7 @@ function index() {
                 <div className='icon-box ml-10'>
                     <UserAddOutlined />
                 </div>
-                <div className='bold-15'>New users</div>
+                <div className='bold-15'>Online users</div>
                 <button className='button button1'>see all</button>
             </div>
             <div className='row'>

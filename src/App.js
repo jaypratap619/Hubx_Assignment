@@ -1,10 +1,15 @@
+import React from 'react';
 import './App.css';
 import 'antd/dist/antd.css';
 import Header from './Components/Header';
 import StatusIcon from './Components/StatusIcon';
 import TrailPeriod from './Components/TrailPeriod';
 import LineChart from './Components/LineChart'
-import Users from './Components/Users'
+import NewUsers from './Components/Users/NewUsers'
+import OnlineUsers from './Components/Users/OnlineUsers';
+import ListBox from './Components/ListBox';
+
+
 function App() {
   return (
     <div className='App'>
@@ -14,8 +19,13 @@ function App() {
       <StatusIcon />
       </div>
       <div className='row'>
-      <Users />
+      <NewUsers />
+      <ListBox type = 'blogs' />
+      <ListBox type = 'events'/>
       <TrailPeriod />
+      </div>
+      <div className='row'>
+        <OnlineUsers />
       </div>
       
     </div>
