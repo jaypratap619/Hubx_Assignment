@@ -31,7 +31,8 @@ const options = {
       max: 1,
       min: 0,
       ticks: {
-        stepSize: 0.25
+        stepSize: 0.25,
+        callback: function(value) { return value.toFixed(2)}
       }
     }],
   },
