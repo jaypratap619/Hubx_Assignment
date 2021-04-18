@@ -1,16 +1,16 @@
 import React from "react";
 import { Wrapper } from './style';
+import { Doughnut } from "react-chartjs-2";
 
-import { Doughnut} from "react-chartjs-2";
-
-const data = {
+export default function LineChart({v1,v2}) {
+  const data = {
     labels: [
       'No. of Invites',
       'Duration of Event',
     ],
     datasets: [{
       label: 'My First Dataset',
-      data: [300, 50],
+      data: [v1, v2],
       backgroundColor: [
         'rgb(255, 99, 132)',
         'rgb(54, 162, 235)'
@@ -22,11 +22,12 @@ const data = {
     type: 'doughnut',
     data: data,
   };
-
-export default function LineChart() {
   return (
-    <Wrapper>
-      <Doughnut data={data}  config= {config} />
-    </Wrapper>
+    <>
+      <Wrapper>
+        <Doughnut data={data} config={config} />
+      </Wrapper>
+      
+    </>
   );
 }

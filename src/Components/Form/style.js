@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   align-items: center;
   padding: 20px 20px;
   background: #fff;
-
+  
   input[type=text],
   input[type=email], select {
     width: 100%;
@@ -36,7 +36,7 @@ export const Wrapper = styled.div`
   
   div {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #fff;
     padding: 20px;
   }
 `;

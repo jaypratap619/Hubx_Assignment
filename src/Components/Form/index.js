@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Wrapper } from './style';
-import DonutChart from './DonutChart'
-function index() {
+import DonutChart from './DonutChart';
+import { Slider } from 'rsuite';
+import "rsuite/dist/styles/rsuite-default.min.css";
+
+function Index() {
+    const [v1, setV1] = useState(50);
+    const [v2, setV2] = useState(50);
     return (
         <>
             <Wrapper>
@@ -17,15 +22,38 @@ function index() {
                         <option value="usa">USA</option>
                         <option value="india">India</option>
                     </select>
-                    <input type="submit" defaultValue="Join Our Event" placeholder="Join Our Event"/>
+                    <input type="submit" defaultValue="Join Our Event" placeholder="Join Our Event" />
                 </form>
             </Wrapper>
+            <h5>Number of invite : {v1}</h5>
+            <br />
+            <Slider
+                progress
+                value={v1}
+                max={100}
+                min={0}
+                onChange={value => {
+                    setV1(value);
+                }}
+            />
             <Wrapper>
-                <DonutChart />
+                <DonutChart v1={v1} v2={v2} />
             </Wrapper>
+            <h5>Duration of Event : {v1}</h5>
+            <br />
+            <Slider
+                progress
+                value={v2}
+                max={100}
+                min={0}
+                onChange={value => {
+                    setV2(value);
+                }}
+            />
+            <h5>Price : {v1 * v2} </h5>
         </>
 
     );
 }
 
-export default index;
+export default Index;

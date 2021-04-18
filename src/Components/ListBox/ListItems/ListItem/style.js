@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-around;
   font-size: 13px;
+  margin-bottom: 10px;
   
   p:first-child{
     color: #55ccc1;
