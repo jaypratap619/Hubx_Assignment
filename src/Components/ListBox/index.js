@@ -15,11 +15,7 @@ function Index(props) {
       "What is Educational Marketing & How to Use it to Grow with Examples"
     ]);
     const [eventsLogs] = useState([
-      "Blended Learning: What it is, Why it Matters & How to Apply",
-      "Join the courses Sales",
-      "12 Steps to Creating Awesome Live Classes in 2021",
-      "Guys KawaSakion the future of Business in the Midst of a Pandemic",
-      "What is Educational Marketing & How to Use it to Grow with Examples"
+      "hubx Logged in moreinfo Guys KawaSakion the future"
     ]);
 
 

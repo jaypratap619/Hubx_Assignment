@@ -17,7 +17,7 @@ function index() {
                         <option value="usa">USA</option>
                         <option value="india">India</option>
                     </select>
-                    <input type="submit" defaultValue="Join Our Event" />
+                    <input type="submit" defaultValue="Join Our Event" placeholder="Join Our Event"/>
                 </form>
             </Wrapper>
             <Wrapper>

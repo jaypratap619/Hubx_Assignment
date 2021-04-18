@@ -9,8 +9,7 @@ function index() {
                 <div className='icon-box ml-10'>
                     <UserAddOutlined />
                 </div>
-                <div className='bold-15'>Online users</div>
-                <button className='button button1'>see all</button>
+                <div className='bold-15'>Online users (1)</div>
             </div>
             <div className='row'>
                 <div className='icon-box ml-10'>
@@ -20,6 +19,7 @@ function index() {
                     <div className='row-text'>HubX</div>
                     <div className='row-text'>24 minutes</div>
                 </div>
+                <button className='button button1'>contact</button>
             </div>
         </Wrapper>
 

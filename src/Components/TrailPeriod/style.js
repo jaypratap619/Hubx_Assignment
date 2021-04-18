@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  width: 25%;
+  width: 100%;
   margin-top: 10px;
-  align-items: center;
+  align-self: flex-start; 
   padding: 10px 10px;
   border-bottom: 1px solid #ebebeb;
   background-image: repeating-linear-gradient(-45deg,

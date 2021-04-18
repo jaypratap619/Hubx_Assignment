@@ -15,19 +15,19 @@ function App() {
     <div className='App'>
       <Header />
       <div className='row'>
-      <LineChart />
-      <StatusIcon />
+        <LineChart />
+        <StatusIcon />
       </div>
       <div className='row'>
-      <NewUsers />
-      <ListBox type = 'blogs' />
-      <ListBox type = 'events'/>
-      <TrailPeriod />
+        <NewUsers />
+        <ListBox type='blogs' />
+        <ListBox type='events' />
+        <div className = 'col'>
+          <TrailPeriod />
+          <OnlineUsers />
+        </div>
       </div>
-      <div className='row'>
-        <OnlineUsers />
-      </div>
-      
+
     </div>
   );
 }

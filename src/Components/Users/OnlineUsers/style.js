@@ -1,20 +1,20 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  width: 25%;
+  width: 100%;
   background: #fff;
-  margin: 10px 10px;
+  margin: 10px 0 10px 0;
   align-items: center;
   padding: 10px 0;
   border-radius: 10px;
   border-bottom: 1px solid #ebebeb;
-  margin-left: 75%;
 
   .row{
     margin: 5px 0; 
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
   }
 
   .row-text{
@@ -59,6 +59,8 @@ export const Wrapper = styled.div`
     }
 
   .button {
+    position: absolute;
+    right: 10px;
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -67,7 +69,6 @@ export const Wrapper = styled.div`
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    border-radius: 30px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -76,7 +77,6 @@ export const Wrapper = styled.div`
     background-color: #55ccc1; 
     color: white;
   }
-
   .company-icon{
     background-color: #C0C0C0;
     margin-top: 10%;
