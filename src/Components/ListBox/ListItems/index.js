@@ -5,8 +5,8 @@ function Index(props) {
   return (
     <Wrapper>
       <ul>
-        {props.items.map((el) =>{
-          return <li><a href='/'><ListItem item = {el}/></a></li>
+        {props.items.map((el,index) =>{
+          return <li><a href='/'><ListItem item = {el} hist = {props.history[index]}/></a></li>
         })}
       </ul>
     </Wrapper>

@@ -8,8 +8,11 @@
   display: flex;
   justify-content: space-between;
 }
+.App .row .col1{
+  width: 75%;
+}
 
-.App .row .col{
+.App .row .col2{
   width: 25%;
 }
 

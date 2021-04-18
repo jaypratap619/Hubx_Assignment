@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import 'antd/dist/antd.css';
 import Header from './Components/Header';
+import NavBar from './Components/NavBar'
 import StatusIcon from './Components/StatusIcon';
 import TrailPeriod from './Components/TrailPeriod';
 import LineChart from './Components/LineChart'
@@ -15,14 +16,17 @@ function App() {
     <div className='App'>
       <Header />
       <div className='row'>
+      <div className = 'col1'>
+        <NavBar />
         <LineChart />
+      </div> 
         <StatusIcon />
       </div>
       <div className='row'>
         <NewUsers />
         <ListBox type='blogs' />
         <ListBox type='events' />
-        <div className = 'col'>
+        <div className = 'col2'>
           <TrailPeriod />
           <OnlineUsers />
         </div>

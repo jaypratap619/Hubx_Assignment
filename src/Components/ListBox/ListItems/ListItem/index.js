@@ -4,6 +4,7 @@ function Index(props) {
   return (
     <Wrapper>
       <p>{props.item}</p>
+      <p>{props.hist}</p>
     </Wrapper>
   );
 }
