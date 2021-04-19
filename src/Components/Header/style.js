@@ -27,11 +27,13 @@ export const Wrapper = styled.div`
   }
 
   @media only screen and (max-width: 768px) {
+    padding: 20px 0px;
     ul{
       flex-flow: column;
+    }
   }
 
-  .bold-20 {
+  a .bold-20 {
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -60,7 +62,7 @@ export const Wrapper = styled.div`
     margin-left: auto;
   }
 
-  .icon-text {
+  a .icon-text {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

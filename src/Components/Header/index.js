@@ -8,26 +8,24 @@ function index() {
 
       <ul>
         <li>
-          <a href='/' className='icon-box ml-20'><PlusOutlined /></a>
+          <div className='icon-box ml-20'><PlusOutlined /></div>
           <a href='/' className='icon-text'>Create course</a>
         </li>
         <li>
-          <a href='/' className='icon-box ml-20'><EyeOutlined /></a>
+          <div className='icon-box ml-20'><EyeOutlined /></div>
           <a href='/' className='icon-text'>Preview home page</a>
         </li>
 
         <li>
-          <a href='/' className='icon-box ml-20'>
-            <EyeOutlined />
-          </a>
-          <a href='/' className='icon-text'>Preview after login page</a>
+          <div className='icon-box ml-20'><EyeOutlined /></div>
+          <div className='icon-text'>Preview after login page</div>
         </li>
         <li>
-          <a href='/' className='icon-box ml-20'><PoweroffOutlined /></a>
+          <div className='icon-box ml-20'><PoweroffOutlined /></div>
           <a href='/' className='icon-text'>View welcome screen</a>
         </li>
       </ul>
-      <a href='/' className='help'><QuestionOutlined style={{ color: '#fff' }} /></a>
+      <div className='help'><QuestionOutlined style={{ color: '#fff' }} /></div>
       <a href='/' className='icon-text'>Help</a>
     </Wrapper>
   );
