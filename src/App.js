@@ -15,7 +15,7 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      <div className='row'>
+      <div className='row1'>
         <div className='col1'>
           <NavBar />
           <LineChart />
@@ -24,7 +24,7 @@ function App() {
           <StatusIcon />
         </div>
       </div>
-      <div className='row'>
+      <div className='row2'>
         <NewUsers />
         <ListBox type='blogs' />
         <ListBox type='events' />

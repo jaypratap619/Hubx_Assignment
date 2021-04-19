@@ -50,7 +50,7 @@ function Index() {
                     setV2(value);
                 }}
             />
-            <h5>Price : {v1 * v2} </h5>
+            <h5 className="mt-20">Price : {v1 * v2} </h5>
         </>
 
     );

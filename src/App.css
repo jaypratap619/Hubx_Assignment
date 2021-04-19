@@ -4,26 +4,31 @@
   min-height: 100vh;
 }
 
-.App .row{
+.App .row1{
   display: flex;
-  background: #fff;
   flex-flow: row;
   justify-content: space-between;
+  background: #fff;
 }
 
-
-.App .row .col1{
+.App .row1 .col1{
   width: 75%;
   height: 100%;
   align-self: flex-start;
 }
 
-.App .row .col2{
+.App .row1 .col2{
   width: 25%;
 }
 
-.App .row .col3{
+.App .row2 .col3{
   width: 25%;
+}
+
+.App .row2{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
 }
 
 /* @media only screen and (max-width: 768px){
