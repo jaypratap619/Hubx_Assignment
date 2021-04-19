@@ -20,6 +20,7 @@ export const Wrapper = styled.div`
   .row{
     display: flex;
     justify-content: space-between;
+    background: transparent;
   }
 
 

@@ -6,6 +6,7 @@
 
 .App .row{
   display: flex;
+  background: #fff;
   flex-flow: row;
   justify-content: space-between;
 }
@@ -15,7 +16,6 @@
   width: 75%;
   height: 100%;
   align-self: flex-start;
-  background: #fff;
 }
 
 .App .row .col2{
