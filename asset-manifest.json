@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hubx_assignment/static/css/main.beb8b811.chunk.css",
-    "main.js": "/hubx_assignment/static/js/main.d8b8ad0d.chunk.js",
-    "main.js.map": "/hubx_assignment/static/js/main.d8b8ad0d.chunk.js.map",
+    "main.css": "/hubx_assignment/static/css/main.1c1bf6c1.chunk.css",
+    "main.js": "/hubx_assignment/static/js/main.108ddb60.chunk.js",
+    "main.js.map": "/hubx_assignment/static/js/main.108ddb60.chunk.js.map",
     "runtime-main.js": "/hubx_assignment/static/js/runtime-main.151e07ef.js",
     "runtime-main.js.map": "/hubx_assignment/static/js/runtime-main.151e07ef.js.map",
     "static/css/2.37823419.chunk.css": "/hubx_assignment/static/css/2.37823419.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.49119999.chunk.js.map": "/hubx_assignment/static/js/3.49119999.chunk.js.map",
     "index.html": "/hubx_assignment/index.html",
     "static/css/2.37823419.chunk.css.map": "/hubx_assignment/static/css/2.37823419.chunk.css.map",
-    "static/css/main.beb8b811.chunk.css.map": "/hubx_assignment/static/css/main.beb8b811.chunk.css.map",
+    "static/css/main.1c1bf6c1.chunk.css.map": "/hubx_assignment/static/css/main.1c1bf6c1.chunk.css.map",
     "static/js/2.b1f7493d.chunk.js.LICENSE.txt": "/hubx_assignment/static/js/2.b1f7493d.chunk.js.LICENSE.txt",
     "static/media/pulse-line.bc7327ba.svg": "/hubx_assignment/static/media/pulse-line.bc7327ba.svg",
     "static/media/shopping-cart.0c20d1ab.svg": "/hubx_assignment/static/media/shopping-cart.0c20d1ab.svg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.151e07ef.js",
     "static/css/2.37823419.chunk.css",
     "static/js/2.b1f7493d.chunk.js",
-    "static/css/main.beb8b811.chunk.css",
-    "static/js/main.d8b8ad0d.chunk.js"
+    "static/css/main.1c1bf6c1.chunk.css",
+    "static/js/main.108ddb60.chunk.js"
   ]
 }
