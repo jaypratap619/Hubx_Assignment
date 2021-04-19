@@ -13,6 +13,14 @@ export const Wrapper = styled.div`
     line-height: 30px;
     font-family: Roboto;
   }
+  a{
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 3px solid transparent;
+  }
+  a: hover{
+    border-bottom: 3px solid #55ccc1;
+  }
 
   
   .icon-box{

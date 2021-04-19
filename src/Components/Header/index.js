@@ -4,31 +4,31 @@ import { PlusOutlined, EyeOutlined, PoweroffOutlined, QuestionOutlined } from '@
 function index() {
   return (
     <Wrapper>
-      <div className='bold-20'>Dashboard</div>
+      <a href='/' className='bold-20 '>Dashboard</a>
 
       <ul>
         <li>
-          <div className='icon-box ml-20'><PlusOutlined /></div>
-          <div className='icon-text'>Create course</div>
+          <a href='/' className='icon-box ml-20'><PlusOutlined /></a>
+          <a href='/' className='icon-text'>Create course</a>
         </li>
         <li>
-          <div className='icon-box ml-20'><EyeOutlined /></div>
-          <div className='icon-text'>Preview home page</div>
+          <a href='/' className='icon-box ml-20'><EyeOutlined /></a>
+          <a href='/' className='icon-text'>Preview home page</a>
         </li>
 
         <li>
-          <div className='icon-box ml-20'>
+          <a href='/' className='icon-box ml-20'>
             <EyeOutlined />
-          </div>
-          <div className='icon-text'>Preview after login page</div>
+          </a>
+          <a href='/' className='icon-text'>Preview after login page</a>
         </li>
         <li>
-          <div className='icon-box ml-20'><PoweroffOutlined /></div>
-          <div className='icon-text'>View welcome screen</div>
+          <a href='/' className='icon-box ml-20'><PoweroffOutlined /></a>
+          <a href='/' className='icon-text'>View welcome screen</a>
         </li>
       </ul>
-          <div className='help'><QuestionOutlined style={{ color: '#fff' }} /></div>
-          <div className='icon-text'>Help</div>
+      <a href='/' className='help'><QuestionOutlined style={{ color: '#fff' }} /></a>
+      <a href='/' className='icon-text'>Help</a>
     </Wrapper>
   );
 }

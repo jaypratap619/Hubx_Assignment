@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-fow: row;
   align-items: center;
+  justify-content: space-between;
   padding: 20px 30px;
   border-bottom: 1px solid #ebebeb;
   background: #fff;
@@ -12,16 +13,22 @@ export const Wrapper = styled.div`
       list-style: none;
       display: flex;
   }
+  
 
   ul li{
     display: flex;
     align-items: center;
   }
 
+  ul li a,
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
   @media only screen and (max-width: 768px) {
     ul{
       flex-flow: column;
-  }
   }
 
   .bold-20 {
