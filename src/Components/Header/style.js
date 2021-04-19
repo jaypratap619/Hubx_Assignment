@@ -2,10 +2,27 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
+  flex-fow: row;
   align-items: center;
   padding: 20px 30px;
   border-bottom: 1px solid #ebebeb;
   background: #fff;
+
+  ul{
+      list-style: none;
+      display: flex;
+  }
+
+  ul li{
+    display: flex;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    ul{
+      flex-flow: column;
+  }
+  }
 
   .bold-20 {
     font-size: 20px;

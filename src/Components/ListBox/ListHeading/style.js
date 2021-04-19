@@ -18,7 +18,6 @@ export const Wrapper = styled.div`
     font-size: 12px;
     border-radius: 30px;
     margin: 4px 2px;
-    transition-duration: 0.4s;
     cursor: pointer;
     margin-left: 5px;
   }

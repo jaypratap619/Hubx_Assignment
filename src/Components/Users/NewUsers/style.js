@@ -9,6 +9,10 @@ export const Wrapper = styled.div`
   padding: 10px 0;
   border-radius: 10px;
   border-bottom: 1px solid #ebebeb;
+  
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
 
   .row{
     margin: 5px 0; 

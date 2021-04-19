@@ -14,16 +14,12 @@ export const Wrapper = styled.div`
   background-image: repeating-linear-gradient(-45deg,
     #b2d8d8 0 40px,
     white 40px 80px);
-
   
-
   .row{
     display: flex;
     justify-content: space-between;
     background: transparent;
   }
-
-
 
   .bold-15 {
     font-size: 18px;

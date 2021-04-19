@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
     font-family: Roboto;
   }
 
-
+  
   .icon-box{
     background: #f7f7f7;
     height: 35px;
@@ -30,6 +30,16 @@ export const Wrapper = styled.div`
     }
   }
 
+  @media only screen and (max-width: 768px) {
+    .icon-text{
+      display: none;
+    }
+    .btn{
+      border-radius: 10px;
+      border: none;
+      font-weight: 500;
+  }
+  }
 
   .icon-text {
     font-size: 16px;
@@ -43,7 +53,7 @@ export const Wrapper = styled.div`
   }
 
   .btn{
-      border-radius: 80px;
+      border-radius: 40px;
       border: none;
       font-weight: 500;
   }

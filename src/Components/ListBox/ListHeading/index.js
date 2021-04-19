@@ -14,7 +14,7 @@ function index(props) {
     <>
       <Wrapper>
         <img className='headingIcon' src={icon} alt='sqaure smiley logo' />
-        <h4>{props.title}</h4>
+        <p>{props.title}</p>
         <button className='button button1'>see all</button>
       </Wrapper>
     </>
