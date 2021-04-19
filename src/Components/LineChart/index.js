@@ -18,6 +18,8 @@ const data = {
 };
 
 const options = {
+  responsive: true,
+  maintainAspectRatio: false,
   scales: {
     xAxes: [{
       gridLines: {

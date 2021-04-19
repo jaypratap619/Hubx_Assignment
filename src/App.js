@@ -16,17 +16,19 @@ function App() {
     <div className='App'>
       <Header />
       <div className='row'>
-      <div className = 'col1'>
-        <NavBar />
-        <LineChart />
-      </div> 
-        <StatusIcon />
+        <div className='col1'>
+          <NavBar />
+          <LineChart />
+        </div>
+        <div className='col2'>
+          <StatusIcon />
+        </div>
       </div>
       <div className='row'>
         <NewUsers />
         <ListBox type='blogs' />
         <ListBox type='events' />
-        <div className = 'col2'>
+        <div className='col3'>
           <TrailPeriod />
           <OnlineUsers />
         </div>
